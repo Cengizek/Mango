@@ -20,19 +20,18 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
         private readonly AppDbContext _db;
         private IProductService _productService;
         private ICouponService _couponService;
-        private readonly IMessageBus _messageBus;
         private IConfiguration _configuration;
+        private readonly IMessageBus _messageBus;
         public CartAPIController(AppDbContext db,
-            IMapper mapper, IProductService productService, ICouponService couponService, IMessageBus messageBus,IConfiguration configuration)
+            IMapper mapper, IProductService productService, ICouponService couponService, IMessageBus messageBus, IConfiguration configuration)
         {
             _db = db;
             _messageBus = messageBus;
-            _configuration = configuration;
             _productService = productService;
             this._response = new ResponseDto();
             _mapper = mapper;
             _couponService = couponService;
-            
+            _configuration = configuration;
         }
         [HttpGet("GetCart/{userId}")]
         public async Task<ResponseDto> GetCart(string userId)
@@ -46,7 +45,7 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
                 cart.CartDetails = _mapper.Map<IEnumerable<CartDetailsDto>>(_db.CartDetails
                     .Where(u => u.CartHeaderId == cart.CartHeader.CartHeaderId));
 
-                IEnumerable<ProductDto>? productDtos = await _productService.GetProducts();
+                IEnumerable<ProductDto> productDtos = await _productService.GetProducts();
 
                 foreach (var item in cart.CartDetails)
                 {
@@ -110,8 +109,6 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
             }
             return _response;
         }
-
-
 
 
 

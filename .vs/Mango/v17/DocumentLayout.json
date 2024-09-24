@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ekmek\\source\\repos\\Mango\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5DF27D3A-7107-413C-88D1-7A51FE5BA052}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.services.shoppingcartapi\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DF27D3A-7107-413C-88D1-7A51FE5BA052}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|solutionrelative:mango.services.shoppingcartapi\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DF27D3A-7107-413C-88D1-7A51FE5BA052}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.services.shoppingcartapi\\models\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DF27D3A-7107-413C-88D1-7A51FE5BA052}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|solutionrelative:mango.services.shoppingcartapi\\models\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.web\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.web\\models\\orderheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\models\\orderheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.web\\views\\order\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\views\\order\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.web\\models\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\models\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,77 +24,8 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartDto.cs",
-              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ShoppingCartAPI\\Models\\Dto\\CartDto.cs",
-              "RelativeDocumentMoniker": "Mango.Services.ShoppingCartAPI\\Models\\Dto\\CartDto.cs",
-              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ShoppingCartAPI\\Models\\Dto\\CartDto.cs",
-              "RelativeToolTip": "Mango.Services.ShoppingCartAPI\\Models\\Dto\\CartDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T11:43:34.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartAPIController.cs",
-              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
-              "RelativeDocumentMoniker": "Mango.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
-              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
-              "RelativeToolTip": "Mango.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwC8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T11:38:50.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\Models\\ProductDto.cs",
-              "RelativeDocumentMoniker": "Mango.Web\\Models\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\Models\\ProductDto.cs",
-              "RelativeToolTip": "Mango.Web\\Models\\ProductDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T11:33:45.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderHeaderDto.cs",
-              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\Models\\OrderHeaderDto.cs",
-              "RelativeDocumentMoniker": "Mango.Web\\Models\\OrderHeaderDto.cs",
-              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\Models\\OrderHeaderDto.cs",
-              "RelativeToolTip": "Mango.Web\\Models\\OrderHeaderDto.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAWwA0AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T11:27:33.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderDetailsDto.cs",
-              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\Models\\OrderDetailsDto.cs",
-              "RelativeDocumentMoniker": "Mango.Web\\Models\\OrderDetailsDto.cs",
-              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\Models\\OrderDetailsDto.cs",
-              "RelativeToolTip": "Mango.Web\\Models\\OrderDetailsDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T21:06:38.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderDetail.cshtml",
-              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\Views\\Order\\OrderDetail.cshtml",
-              "RelativeDocumentMoniker": "Mango.Web\\Views\\Order\\OrderDetail.cshtml",
-              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\Views\\Order\\OrderDetail.cshtml",
-              "RelativeToolTip": "Mango.Web\\Views\\Order\\OrderDetail.cshtml",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAwFIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T20:15:01.192Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

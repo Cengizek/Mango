@@ -145,3 +145,4 @@ C:\Users\ekmek\source\repos\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.
 C:\Users\ekmek\source\repos\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\ekmek\source\repos\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\Mango.MessageBus.dll
 C:\Users\ekmek\source\repos\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\Mango.MessageBus.pdb
+C:\Users\ekmek\source\repos\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net8.0\Mango.Services.ShoppingCartAPI.sourcelink.json
