@@ -45,7 +45,7 @@ namespace Mango.Services.OrderAPI.Controllers
             try
             {
                 IEnumerable<OrderHeader> objList;
-                if (User.IsInRole(SD.RoleAdmin))
+                if (User.IsInRole(SD.Role_Admin))
                 {
                     objList = _db.OrderHeaders.Include(u => u.OrderDetails).OrderByDescending(u => u.OrderHeaderId).ToList();
                 }

@@ -57,8 +57,8 @@ namespace Mango.Web.Controllers
         {
             var roleItem = new List<SelectListItem>()
             {
-                new SelectListItem{Text=SD.RoleAdmin, Value=SD.RoleAdmin},
-                 new SelectListItem{Text=SD.RoleCustomer, Value=SD.RoleCustomer},
+                new SelectListItem{Text=SD.Role_Admin, Value=SD.Role_Admin},
+                 new SelectListItem{Text=SD.Role_Customer, Value=SD.Role_Customer},
             };
             ViewBag.RoleList = roleItem;
 
@@ -75,7 +75,7 @@ namespace Mango.Web.Controllers
             {
                 if (string.IsNullOrEmpty(obj.Role))
                 {
-                    obj.Role = SD.RoleCustomer;
+                    obj.Role = SD.Role_Customer;
                 }
                 assingRole = await _authService.AssingRoleAsync(obj);
                 if (assingRole!=null && assingRole.IsSuccess)
@@ -90,8 +90,8 @@ namespace Mango.Web.Controllers
             }
             var roleItem = new List<SelectListItem>()
             {
-                new SelectListItem{Text=SD.RoleAdmin, Value=SD.RoleAdmin},
-                 new SelectListItem{Text=SD.RoleCustomer, Value=SD.RoleCustomer},
+                new SelectListItem{Text=SD.Role_Admin, Value=SD.Role_Admin},
+                 new SelectListItem{Text=SD.Role_Customer, Value=SD.Role_Customer},
             };
             ViewBag.RoleList = roleItem;
 

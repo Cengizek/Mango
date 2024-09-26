@@ -10,3 +10,4 @@ C:\Users\ekmek\source\repos\Mango\Mango.MessageBus\obj\Debug\net8.0\Mango.Messag
 C:\Users\ekmek\source\repos\Mango\Mango.MessageBus\obj\Debug\net8.0\refint\Mango.MessageBus.dll
 C:\Users\ekmek\source\repos\Mango\Mango.MessageBus\obj\Debug\net8.0\Mango.MessageBus.pdb
 C:\Users\ekmek\source\repos\Mango\Mango.MessageBus\obj\Debug\net8.0\ref\Mango.MessageBus.dll
+C:\Users\ekmek\source\repos\Mango\Mango.MessageBus\obj\Debug\net8.0\Mango.MessageBus.sourcelink.json

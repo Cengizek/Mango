@@ -143,3 +143,4 @@ C:\Users\ekmek\source\repos\Mango\Mango.Services.RewardAPI\obj\Debug\net8.0\refi
 C:\Users\ekmek\source\repos\Mango\Mango.Services.RewardAPI\obj\Debug\net8.0\Mango.Services.RewardAPI.pdb
 C:\Users\ekmek\source\repos\Mango\Mango.Services.RewardAPI\obj\Debug\net8.0\Mango.Services.RewardAPI.genruntimeconfig.cache
 C:\Users\ekmek\source\repos\Mango\Mango.Services.RewardAPI\obj\Debug\net8.0\ref\Mango.Services.RewardAPI.dll
+C:\Users\ekmek\source\repos\Mango\Mango.Services.RewardAPI\obj\Debug\net8.0\Mango.Services.RewardAPI.sourcelink.json

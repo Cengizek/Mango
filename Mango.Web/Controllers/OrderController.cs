@@ -29,7 +29,7 @@ namespace Mango.Web.Controllers
                 orderHeaderDto = JsonConvert.DeserializeObject<OrderHeaderDto>(Convert.ToString(response.Result));
             }
 
-            if(!User.IsInRole(SD.RoleAdmin) && userId != orderHeaderDto.UserId )
+            if(!User.IsInRole(SD.Role_Admin) && userId != orderHeaderDto.UserId )
             {
                 return NotFound();
 
@@ -44,7 +44,7 @@ namespace Mango.Web.Controllers
         {
             IEnumerable<OrderHeaderDto> list;
             string userId = "";
-            if (!User.IsInRole(SD.RoleAdmin))
+            if (!User.IsInRole(SD.Role_Admin))
             {
                 userId = User.Claims.Where(u => u.Type == JwtRegisteredClaimNames.Sub)?.FirstOrDefault()?.Value;
             }
