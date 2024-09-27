@@ -84,3 +84,4 @@ C:\Users\ekmek\source\repos\Mango\Mango.Web\bin\Debug\net8.0\Mango.Services.Prod
 C:\Users\ekmek\source\repos\Mango\Mango.Web\obj\Debug\net8.0\Mango.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ekmek\source\repos\Mango\Mango.Web\bin\Debug\net8.0\IdentityModel.dll
 C:\Users\ekmek\source\repos\Mango\Mango.Web\obj\Debug\net8.0\Mango.Web.sourcelink.json
+C:\Users\ekmek\source\repos\Mango\Mango.Web\bin\Debug\net8.0\Mango.Services.ProductAPI.staticwebassets.runtime.json

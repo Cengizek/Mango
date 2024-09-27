@@ -139,3 +139,4 @@ C:\Users\ekmek\source\repos\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\Man
 C:\Users\ekmek\source\repos\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\Mango.Services.ProductAPI.genruntimeconfig.cache
 C:\Users\ekmek\source\repos\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\ref\Mango.Services.ProductAPI.dll
 C:\Users\ekmek\source\repos\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\Mango.Services.ProductAPI.sourcelink.json
+C:\Users\ekmek\source\repos\Mango\Mango.Services.ProductAPI\bin\Debug\net8.0\Mango.Services.ProductAPI.staticwebassets.runtime.json

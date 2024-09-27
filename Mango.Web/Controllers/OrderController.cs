@@ -38,9 +38,46 @@ namespace Mango.Web.Controllers
 
             return View(orderHeaderDto);
         }
+        [HttpPost("OrderReadyForPickup")]
+        public async Task<IActionResult> OrderReadyForPickup(int orderId)
+        {
+            var response = await _orderService.UpdateOrderStatus(orderId,SD.Status_ReadyForPickUp);
+            if (response != null && response.IsSuccess)
+            {
+                TempData["success"] = "Status successfully Updated";
+                return RedirectToAction(nameof(OrderDetail), new {orderId = orderId});
+            }
+
+            return View();
+        }
+        [HttpPost("CompleteOrder")]
+        public async Task<IActionResult> CompleteOrder(int orderId)
+        {
+            var response = await _orderService.UpdateOrderStatus(orderId, SD.Status_Completed);
+            if (response != null && response.IsSuccess)
+            {
+                TempData["success"] = "Status successfully Updated";
+                return RedirectToAction(nameof(OrderDetail), new { orderId = orderId });
+            }
+
+            return View();
+        }
+        [HttpPost("CancelOrder")]
+        public async Task<IActionResult> CancelOrder(int orderId)
+        {
+            var response = await _orderService.UpdateOrderStatus(orderId, SD.Status_Cancelled);
+            if (response != null && response.IsSuccess)
+            {
+                TempData["success"] = "Status successfully Updated";
+                return RedirectToAction(nameof(OrderDetail), new { orderId = orderId });
+            }
+
+            return View();
+        }
+
 
         [HttpGet]
-        public IActionResult GetAll()
+        public IActionResult GetAll(string status)
         {
             IEnumerable<OrderHeaderDto> list;
             string userId = "";
@@ -52,7 +89,21 @@ namespace Mango.Web.Controllers
             if (response != null && response.IsSuccess)
             {
                 list = JsonConvert.DeserializeObject<List<OrderHeaderDto>>(Convert.ToString(response.Result));
-               
+                switch(status){
+                    case "approved":
+                        list = list.Where(u => u.Status == SD.Status_Approved);
+                        break;
+
+                    case "readyforpickup":
+                        list = list.Where(u => u.Status == SD.Status_ReadyForPickUp);
+                        break;
+
+                    case "cancelled":
+                        list = list.Where(u => u.Status == SD.Status_Cancelled);
+                        break;
+                    default:
+                        break;
+                }
             }
             else
             {

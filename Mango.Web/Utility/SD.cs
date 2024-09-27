@@ -7,8 +7,8 @@
         public static string ProductAPIBase { get; set; }
         public static string OrderAPIBase { get; set; }
         public static string ShoppingCartAPIBase { get; set; }
-        public const string Role_Admin = "ADMIN";
-        public const string Role_Customer = "CUSTOMER";
+        public const string Role_Admin = "Admin";
+        public const string Role_Customer = "Customer";
         public const string TokenCookie = "JWTToken";
         public enum ApiType
         {
@@ -24,5 +24,11 @@
         public const string Status_Completed = "Completed";
         public const string Status_Refunded = "Refunded";
         public const string Status_Cancelled = "Cancelled";
+
+        public enum ContentType
+        {
+            Json,
+            MultipartFormData,
+        }
     }
 }

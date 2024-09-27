@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZH98LGZz1W3/D57rPKF5I+fc5zSyHWcRMdUD7XQzCec=",
+  "Hash": "Z7R9TtZaj7QnFfouE4hhmGAfgbwVQ54WIgad8cSO9fo=",
   "Source": "Mango.Web",
   "BasePath": "_content/Mango.Web",
   "Mode": "Default",
@@ -19,6 +19,13 @@
     }
   ],
   "DiscoveryPatterns": [
+    {
+      "Name": "Mango.Services.ProductAPI\\wwwroot",
+      "Source": "Mango.Services.ProductAPI",
+      "ContentRoot": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ProductAPI\\wwwroot\\",
+      "BasePath": "_content/Mango.Services.ProductAPI",
+      "Pattern": "**"
+    },
     {
       "Name": "Mango.Web\\wwwroot",
       "Source": "Mango.Web",
