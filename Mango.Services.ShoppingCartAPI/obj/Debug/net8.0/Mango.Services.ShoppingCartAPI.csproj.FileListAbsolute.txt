@@ -51,7 +51,6 @@ C:\Users\ekmek\source\repos\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.
 C:\Users\ekmek\source\repos\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\ekmek\source\repos\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ekmek\source\repos\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\ekmek\source\repos\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\ekmek\source\repos\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\Users\ekmek\source\repos\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\ekmek\source\repos\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll

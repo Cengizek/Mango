@@ -13,20 +13,17 @@ namespace Mango.Web.Service
         private readonly ITokenProvider _tokenProvider;
         public BaseService(IHttpClientFactory httpClientFactory, ITokenProvider tokenProvider)
         {
-             _httpClientFactory = httpClientFactory;
+            _httpClientFactory = httpClientFactory;
             _tokenProvider = tokenProvider;
         }
+
         public async Task<ResponseDto?> SendAsync(RequestDto requestDto, bool withBearer = true)
         {
-
             try
             {
-
-
                 HttpClient client = _httpClientFactory.CreateClient("MangoAPI");
                 HttpRequestMessage message = new();
-                
-                if(requestDto.ContentType == ContentType.MultipartFormData)
+                if (requestDto.ContentType == ContentType.MultipartFormData)
                 {
                     message.Headers.Add("Accept", "*/*");
                 }
@@ -34,32 +31,29 @@ namespace Mango.Web.Service
                 {
                     message.Headers.Add("Accept", "application/json");
                 }
-
-
-
                 //token
                 if (withBearer)
                 {
-                    var token =_tokenProvider.GetToken();
+                    var token = _tokenProvider.GetToken();
                     message.Headers.Add("Authorization", $"Bearer {token}");
                 }
 
                 message.RequestUri = new Uri(requestDto.Url);
 
-                if(requestDto.ContentType == ContentType.MultipartFormData)
+                if (requestDto.ContentType == ContentType.MultipartFormData)
                 {
                     var content = new MultipartFormDataContent();
-                    foreach(var prop in requestDto.Data.GetType().GetProperties())
+
+                    foreach (var prop in requestDto.Data.GetType().GetProperties())
                     {
-                        var value =prop.GetValue(requestDto.Data);
-                        if(value is FormFile)
+                        var value = prop.GetValue(requestDto.Data);
+                        if (value is FormFile)
                         {
-                            var file =(FormFile)value;
-                            if(file != null)
+                            var file = (FormFile)value;
+                            if (file != null)
                             {
-                                content.Add(new StreamContent(file.OpenReadStream()),prop.Name,file.FileName);
+                                content.Add(new StreamContent(file.OpenReadStream()), prop.Name, file.FileName);
                             }
-                           
                         }
                         else
                         {
@@ -77,8 +71,11 @@ namespace Mango.Web.Service
                 }
 
 
-                
+
+
+
                 HttpResponseMessage? apiResponse = null;
+
                 switch (requestDto.ApiType)
                 {
                     case ApiType.POST:
@@ -93,7 +90,6 @@ namespace Mango.Web.Service
                     default:
                         message.Method = HttpMethod.Get;
                         break;
-
                 }
 
                 apiResponse = await client.SendAsync(message);
@@ -116,14 +112,13 @@ namespace Mango.Web.Service
             }
             catch (Exception ex)
             {
-                var dto = new ResponseDto()
+                var dto = new ResponseDto
                 {
                     Message = ex.Message.ToString(),
                     IsSuccess = false
                 };
                 return dto;
             }
-
         }
     }
 }

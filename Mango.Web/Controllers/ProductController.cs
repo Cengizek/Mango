@@ -37,7 +37,7 @@ namespace Mango.Web.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult?> ProductCreate(ProductDto model)
+        public async Task<IActionResult> ProductCreate(ProductDto model)
         {
             if (ModelState.IsValid)
             {
