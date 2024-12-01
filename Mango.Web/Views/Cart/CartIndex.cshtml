@@ -37,7 +37,7 @@
                 @foreach(var cartObj in Model.CartDetails){
                 <div class="row h-100">
                     <div class="col-4 col-md-2 text-center py-2">
-                        <img src="" class="rounded" width="100%" />
+                        <img src="@cartObj.Product.ImageUrl" class="rounded" width="100%" />
                     </div>
                     <div class="col-8 col-md-5">
                         <h5>@cartObj.Product.Name</h5>

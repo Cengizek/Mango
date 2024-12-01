@@ -140,3 +140,4 @@ C:\Users\ekmek\source\repos\Mango\Mango.Services.CouponAPI\bin\Debug\net8.0\runt
 C:\Users\ekmek\source\repos\Mango\Mango.Services.CouponAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\ekmek\source\repos\Mango\Mango.Services.CouponAPI\bin\Debug\net8.0\Stripe.net.dll
 C:\Users\ekmek\source\repos\Mango\Mango.Services.CouponAPI\obj\Debug\net8.0\Mango.Services.CouponAPI.sourcelink.json
+C:\Users\ekmek\source\repos\Mango\Mango.Services.CouponAPI\bin\Debug\net8.0\appsettings.Production.json

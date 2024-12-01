@@ -143,3 +143,4 @@ C:\Users\ekmek\source\repos\Mango\Mango.Services.EmailAPI\bin\Debug\net8.0\Micro
 C:\Users\ekmek\source\repos\Mango\Mango.Services.EmailAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\ekmek\source\repos\Mango\Mango.Services.EmailAPI\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\ekmek\source\repos\Mango\Mango.Services.EmailAPI\obj\Debug\net8.0\Mango.Services.EmailAPI.sourcelink.json
+C:\Users\ekmek\source\repos\Mango\Mango.Services.EmailAPI\bin\Debug\net8.0\appsettings.Production.json

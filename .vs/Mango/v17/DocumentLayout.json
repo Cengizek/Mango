@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ekmek\\source\\repos\\Mango\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEA1893B-08F2-4892-BBFF-601F230E8AD6}|Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.services.productapi\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEA1893B-08F2-4892-BBFF-601F230E8AD6}|Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj|solutionrelative:mango.services.productapi\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.web\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.web\\views\\product\\productedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\views\\product\\productedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CEA1893B-08F2-4892-BBFF-601F230E8AD6}|Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.services.productapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CEA1893B-08F2-4892-BBFF-601F230E8AD6}|Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj|solutionrelative:mango.services.productapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA1893B-08F2-4892-BBFF-601F230E8AD6}|Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.services.productapi\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CEA1893B-08F2-4892-BBFF-601F230E8AD6}|Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj|solutionrelative:mango.services.productapi\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF27D3A-7107-413C-88D1-7A51FE5BA052}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.services.shoppingcartapi\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5DF27D3A-7107-413C-88D1-7A51FE5BA052}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|solutionrelative:mango.services.shoppingcartapi\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA1893B-08F2-4892-BBFF-601F230E8AD6}|Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.services.productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEA1893B-08F2-4892-BBFF-601F230E8AD6}|Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj|solutionrelative:mango.services.productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9ED899-E463-42F8-8247-6F67E97421B3}|Mango.Services.RewardAPI\\Mango.Services.RewardAPI.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.services.rewardapi\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD9ED899-E463-42F8-8247-6F67E97421B3}|Mango.Services.RewardAPI\\Mango.Services.RewardAPI.csproj|solutionrelative:mango.services.rewardapi\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +38,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ShoppingCartAPI\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "Mango.Services.ShoppingCartAPI\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ShoppingCartAPI\\appsettings.Production.json",
+              "RelativeToolTip": "Mango.Services.ShoppingCartAPI\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T17:18:06.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ProductAPI\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "Mango.Services.ProductAPI\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ProductAPI\\appsettings.Production.json",
+              "RelativeToolTip": "Mango.Services.ProductAPI\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T17:17:45.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ProductAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "Mango.Services.ProductAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ProductAPI\\appsettings.json",
+              "RelativeToolTip": "Mango.Services.ProductAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T17:17:42.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "Mango.Web\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\appsettings.Production.json",
+              "RelativeToolTip": "Mango.Web\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T17:14:32.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Mango.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\appsettings.json",
+              "RelativeToolTip": "Mango.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T16:46:19.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ProductAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Mango.Services.ProductAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ProductAPI\\Program.cs",
+              "RelativeToolTip": "Mango.Services.ProductAPI\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:20:17.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.RewardAPI\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "Mango.Services.RewardAPI\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.RewardAPI\\appsettings.Production.json",
+              "RelativeToolTip": "Mango.Services.RewardAPI\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T17:00:29.573Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
@@ -35,45 +142,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Mango.Web\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Mango.Web\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowEQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T12:40:28.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductEdit.cshtml",
-              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\Views\\Product\\ProductEdit.cshtml",
-              "RelativeDocumentMoniker": "Mango.Web\\Views\\Product\\ProductEdit.cshtml",
-              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\Views\\Product\\ProductEdit.cshtml",
-              "RelativeToolTip": "Mango.Web\\Views\\Product\\ProductEdit.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-04T12:24:01.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductAPIController.cs",
-              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
-              "RelativeDocumentMoniker": "Mango.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
-              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
-              "RelativeToolTip": "Mango.Services.ProductAPI\\Controllers\\ProductAPIController.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAjwG4AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T12:08:19.648Z",
-              "EditorCaption": ""
             }
           ]
         }

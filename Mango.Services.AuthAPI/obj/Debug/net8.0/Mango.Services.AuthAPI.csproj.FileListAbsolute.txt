@@ -151,3 +151,4 @@ C:\Users\ekmek\source\repos\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\System
 C:\Users\ekmek\source\repos\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\Mango.MessageBus.dll
 C:\Users\ekmek\source\repos\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\Mango.MessageBus.pdb
 C:\Users\ekmek\source\repos\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\Mango.Services.AuthAPI.sourcelink.json
+C:\Users\ekmek\source\repos\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\appsettings.Production.json
