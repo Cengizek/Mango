@@ -12,15 +12,5 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.1.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Mango.Services.ProductAPI\Mango.Services.ProductAPI.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Update="Views\Shared\_Notifications.cshtml">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-  </ItemGroup>
 
 </Project>
