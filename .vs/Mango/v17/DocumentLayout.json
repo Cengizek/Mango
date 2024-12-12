@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ekmek\\source\\repos\\Mango\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.web\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E20D077A-F450-467F-962B-B33BA2ACA4AC}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B7B3B4CA-5649-4820-B408-63D89942559B}|Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.services.authapi\\rabbmitmqsender\\rabbmitmqauthmessagesender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B3B4CA-5649-4820-B408-63D89942559B}|Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj|solutionrelative:mango.services.authapi\\rabbmitmqsender\\rabbmitmqauthmessagesender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2AAA0EC-B894-4EC5-9890-71018A4BE93C}|Mango.GatewaySolution\\Mango.GatewaySolution.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.gatewaysolution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2AAA0EC-B894-4EC5-9890-71018A4BE93C}|Mango.GatewaySolution\\Mango.GatewaySolution.csproj|solutionrelative:mango.gatewaysolution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7B3B4CA-5649-4820-B408-63D89942559B}|Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj|c:\\users\\ekmek\\source\\repos\\mango\\mango.services.authapi\\rabbmitmqsender\\irabbmitmqauthmessagesender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B3B4CA-5649-4820-B408-63D89942559B}|Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj|solutionrelative:mango.services.authapi\\rabbmitmqsender\\irabbmitmqauthmessagesender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Production.json",
-              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\appsettings.Production.json",
-              "RelativeDocumentMoniker": "Mango.Web\\appsettings.Production.json",
-              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Web\\appsettings.Production.json",
-              "RelativeToolTip": "Mango.Web\\appsettings.Production.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-04T18:35:56.946Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
@@ -47,15 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.GatewaySolution\\Program.cs",
-              "RelativeDocumentMoniker": "Mango.GatewaySolution\\Program.cs",
-              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.GatewaySolution\\Program.cs",
-              "RelativeToolTip": "Mango.GatewaySolution\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RabbmitMQAuthMessageSender.cs",
+              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.AuthAPI\\RabbmitMQSender\\RabbmitMQAuthMessageSender.cs",
+              "RelativeDocumentMoniker": "Mango.Services.AuthAPI\\RabbmitMQSender\\RabbmitMQAuthMessageSender.cs",
+              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.AuthAPI\\RabbmitMQSender\\RabbmitMQAuthMessageSender.cs",
+              "RelativeToolTip": "Mango.Services.AuthAPI\\RabbmitMQSender\\RabbmitMQAuthMessageSender.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:32:52.377Z",
+              "WhenOpened": "2024-12-09T16:41:54.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRabbmitMQAuthMessageSender.cs",
+              "DocumentMoniker": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.AuthAPI\\RabbmitMQSender\\IRabbmitMQAuthMessageSender.cs",
+              "RelativeDocumentMoniker": "Mango.Services.AuthAPI\\RabbmitMQSender\\IRabbmitMQAuthMessageSender.cs",
+              "ToolTip": "C:\\Users\\ekmek\\source\\repos\\Mango\\Mango.Services.AuthAPI\\RabbmitMQSender\\IRabbmitMQAuthMessageSender.cs",
+              "RelativeToolTip": "Mango.Services.AuthAPI\\RabbmitMQSender\\IRabbmitMQAuthMessageSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T16:41:38.997Z",
               "EditorCaption": ""
             }
           ]
